@@ -1,0 +1,18 @@
+//Declaration of the constant kelvin value
+const kelvin = 293;
+//Converting kelvin to celsius
+const celsius = kelvin - 273;
+//Evaluating the expression (9/5) and passing it to calculate the fahrenheit value
+const x = 1.8;
+// Rounding the fahrenheit value 
+const fahrenheit = Math.floor((celsius * x) + 32);
+
+console.log(`The temperature is ${fahrenheit} degress Fahrenheit`);
+console.log('****************************************');
+
+const y = 0.33;
+const newton = Math.floor(celsius * y);
+console.log(`The temperature is ${newton} degress Newton`);
+
+
+
